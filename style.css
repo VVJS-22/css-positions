@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 400vh;
+}
+
+.wrapper {
+    background-color: brown;
+    height: 200px;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center; */
+    /* position: relative; */
+    margin-top: 200px;
+    
+
+}
+
+.sticky {
+    position: sticky;
+    top: 0px;
+    left: 0;
+    height: 60px;
+    background: #000;
+}
+
+.elements {
+    background-color: #252525;
+    /* background: transparent; */
+    height: 100px;
+    /* margin-right: 1rem; */
+    margin-bottom: 1rem;
+    width: 100px;
+}
+
+.elements:nth-of-type(odd) {
+    background: #454;
+}
+
+.elements:nth-of-type(1) {
+    position: absolute;
+    right: 10px;
+    top: 100px;
+    background-color: darkblue;
+}
+
+/*display values
+
+1) block
+
+2) inline-block
+
+3)flex
+
+4)grid
+
+5)table  don't use
+
+*/
+
+/*position values
+
+1) absolute
+
+2) relative
+
+3) fixed
+
+4) sticky
